@@ -1,0 +1,252 @@
+---
+title: ""
+format:
+  html:
+    css: styles.css
+    toc: false
+    self-contained: true
+    page-layout: full
+---
+
+```{=html}
+<div class="container">
+
+  <p class="section-label">Teaching in Higher Education - Project outline - Mercedes Vargas </p>
+
+  <!-- TABS NAV -->
+  <div class="nav-tabs">
+    <button class="tab-btn active" onclick="switchTab('presenting', this)">Presenting Prep</button>
+    <button class="tab-btn" onclick="switchTab('syllabus', this)">Course Syllabus</button>
+  </div>
+
+  <!-- ══════════════════════════════════════
+       TAB 1: PRESENTING PREP
+  ══════════════════════════════════════ -->
+  <div id="tab-presenting" class="tab-panel active">
+
+    <div class="doc-header">
+      <span class="tag tag-green">Presenting Prep</span>
+      <h1>Gestalt Principles for Scientific Figures in Agricultural Sciences</h1>
+      <div class="meta-row">
+        <div class="meta-item">Length: <span>50 minutes</span></div>
+        <div class="meta-item">Audience: <span>Mixed undergrad &amp; grad - agricultural sciences</span></div>
+        <div class="meta-item">Materials: <span>Slide deck + figure clinic handout</span></div>
+      </div>
+    </div>
+
+    <!-- Learning outcomes -->
+    <p class="section-label">Learning outcomes</p>
+    <div class="lo-item"><div class="lo-num">1</div><div class="lo-text">Identify at least five Gestalt principles and explain how each influences the perception of scientific figures</div></div>
+    <div class="lo-item"><div class="lo-num">2</div><div class="lo-text">Diagnose visual problems in real agricultural figures using Gestalt principles as a critical framework</div></div>
+    <div class="lo-item"><div class="lo-num">3</div><div class="lo-text">Propose and justify at least one concrete visual improvement to a flawed figure using perceptual reasoning</div></div>
+
+    <!-- Agenda -->
+    <p class="section-label">Backstage agenda — 50 min</p>
+    <div class="timeline">
+
+      <div class="tl-item">
+        <div class="tl-dot blue"></div>
+        <div class="tl-time">0:00 – 0:05 · opening</div>
+        <div class="tl-label">The hook: "What is wrong with this figure?"</div>
+        <div class="tl-note">Display a real, confusing figure from an agricultural journal, no context given. Students have 1-2 minutes to jot down what confuses them. Invite 2–3 voices. Do not explain yet, the goal is to surface intuition and build curiosity for what comes next.</div>
+      </div>
+
+      <div class="tl-item">
+        <div class="tl-dot"></div>
+        <div class="tl-time">0:05 – 0:18 · direct instruction</div>
+        <div class="tl-label">Six Gestalt principles applied to scientific figures</div>
+        <div class="tl-note">Proximity · Similarity · Continuity · Closure · Figure-ground · Symmetry. Each principle: brief definition → visual pair (effective vs. ineffective example) → agricultural case (e.g., yield curves, lactation graphs, pest distribution maps, soil profile comparisons).</div>
+      </div>
+
+      <div class="tl-item">
+        <div class="tl-dot green"></div>
+        <div class="tl-time">0:18 – 0:35 · active learning</div>
+        <div class="tl-label">Figure Clinic — pair work</div>
+        <div class="tl-note">Handout with three real figures from agricultural journals (one effective, two problematic). In pairs: (a) identify which principles are violated or respected, (b) propose one specific improvement for the most confusing figure. Whole-class debrief: 2–3 pairs share findings; instructor synthesizes recurring patterns.</div>
+      </div>
+
+      <div class="tl-item">
+        <div class="tl-dot"></div>
+        <div class="tl-time">0:35 – 0:43 · synthesis</div>
+        <div class="tl-label">A pre-submission checklist for any figure</div>
+        <div class="tl-note">Slide with five quick questions students can ask themselves before submitting a manuscript figure or giving a presentation. Discuss how good figures signal scientific rigor.</div>
+      </div>
+
+      <div class="tl-item">
+        <div class="tl-dot amber"></div>
+        <div class="tl-time">0:43 – 0:50 · closing</div>
+        <div class="tl-label">Return to the hook + exit ticket</div>
+        <div class="tl-note">Bring back the opening figure: what do students see now that they did not see before? Exit ticket (index card or short form): "One Gestalt principle I will apply to my next figure, and how." Preview: next class, students bring one of their own figures for a peer clinic.</div>
+      </div>
+
+    </div>
+
+    <hr class="divider">
+
+    <!-- Materials -->
+    <p class="section-label">Materials to develop</p>
+    <div class="grid-2">
+      <div class="card">
+        <div class="card-title">Slide deck (~18 slides)</div>
+        <div class="card-body">Hook slide · one slide per principle with good/bad pair · activity instructions · pre-submission checklist · closing slide with exit ticket prompt</div>
+      </div>
+      <div class="activity-box">
+        <div class="card-title">Figure Clinic handout</div>
+        <div class="card-body">Three real figures from agr. journals · analysis table (principle / observation / suggested improvement) · blank space to sketch a revised version of the weakest figure</div>
+      </div>
+    </div>
+
+    <div class="note-box">
+      <p>Sources for figures: Journal of Animal Science, Field Crops Research, Agronomy Journal. Look for figures with unclear legends, low-contrast color schemes, overcrowded panels, or ambiguous axes (to work on the diagnostic exercise).</p>
+    </div>
+
+    <!-- Checklist -->
+    <p class="section-label">Figure pre-submission checklist (draft)</p>
+    <ul class="checklist">
+      <li>Is there a clear visual hierarchy: does the eye know where to look first?</li>
+      <li>Do colors group related elements or create unintended clusters?</li>
+      <li>Can the figure be understood without reading the caption first?</li>
+      <li>Is there enough contrast between figure and background?</li>
+      <li>Would someone with color vision deficiency still read this correctly?</li>
+    </ul>
+
+  </div><!-- /tab-presenting -->
+
+
+  <!-- ══════════════════════════════════════
+       TAB 2: SYLLABUS
+  ══════════════════════════════════════ -->
+  <div id="tab-syllabus" class="tab-panel">
+
+    <div class="doc-header">
+      <span class="tag tag-blue">Course Syllabus</span>
+      <h1>Scientific Communication in Agricultural Sciences</h1>
+      <div class="meta-row">
+        <div class="meta-item">Level: <span>Mixed undergrad (senior) &amp; grad</span></div>
+        <div class="meta-item">Credits: <span>3 · 14 weeks · 75 min/week</span></div>
+        <div class="meta-item">Status: <span>Initial outline</span></div>
+      </div>
+    </div>
+
+    <!-- Course description -->
+    <p class="section-label">Course description</p>
+    <div class="card">
+      <div class="card-body">Scientists working in agricultural fields communicate across multiple registers and for multiple audiences: peer-reviewed journals, extension publications, conference presentations, agency reports, and farmer field days. This course develops the skills needed to navigate those contexts with clarity and confidence. Students learn to write and structure scientific manuscripts, adapt language and visuals for different audiences, critically evaluate primary literature, and present data effectively. All examples and practice materials are drawn from crop science, animal science, soil science, and food systems research.</div>
+    </div>
+
+    <!-- Learning outcomes -->
+    <p class="section-label">Learning outcomes</p>
+    <div class="lo-item"><div class="lo-num">1</div><div class="lo-text">Produce a well-structured scientific manuscript following IMRaD format, with discipline-appropriate language and citation practices</div></div>
+    <div class="lo-item"><div class="lo-num">2</div><div class="lo-text">Adapt scientific content (language, visuals, and level of detail) to at least two distinct audiences (scientific peers and non-specialist stakeholders such as farmers)</div></div>
+    <div class="lo-item"><div class="lo-num">3</div><div class="lo-text">Design effective data visualizations that apply principles of visual perception and meet standards for scientific publication</div></div>
+    <div class="lo-item"><div class="lo-num">4</div><div class="lo-text">Deliver a structured oral presentation appropriate to the communicative context (academic conference vs. applied field setting)</div></div>
+    <div class="lo-item"><div class="lo-num">5</div><div class="lo-text">Navigate the publication and dissemination process - from choosing a journal and responding to peer review, to sharing research through open access, social media, and non-academic formats</div></div>
+
+    <!-- Units -->
+    <p class="section-label">Thematic units</p>
+    <div class="grid-2">
+      <div class="card">
+        <span class="tag tag-blue unit-tag">Unit 1 · ~3 weeks</span>
+        <div class="card-title">The scientific paper as a genre</div>
+        <div class="card-body">IMRaD structure and logic · types of papers: research article, review, short communication, technical note, perspective/opinion · how to read a paper strategically · journal conventions across disciplines</div>
+      </div>
+      <div class="card">
+        <span class="tag tag-purple unit-tag">Unit 2 · ~3 weeks</span>
+        <div class="card-title">Scientific language and register</div>
+        <div class="card-body">Hedging and epistemic precision · academic vs. colloquial register · writing for farmers vs. writing for scientists · translating technical content for extension audiences · avoiding jargon without losing accuracy</div>
+      </div>
+      <div class="card">
+        <span class="tag tag-green unit-tag">Unit 3 · ~3 weeks</span>
+        <div class="card-title">Data visualization</div>
+        <div class="card-body">Gestalt principles · choosing the right graph type for the data · figure design for publication · color, contrast, and accessibility · common errors in agricultural figures · tools and workflows</div>
+      </div>
+      <div class="card">
+        <span class="tag tag-amber unit-tag">Unit 4 · ~3 weeks</span>
+        <div class="card-title">Oral and multimodal communication</div>
+        <div class="card-body">Slide design for conference talks · presenting at farmer field days · scientific posters · handling Q&amp;A from different audiences · communicating uncertainty to non-specialists</div>
+      </div>
+      <div class="card">
+        <span class="tag tag-coral unit-tag">Unit 5 · ~2 weeks</span>
+        <div class="card-title">Publication and dissemination</div>
+        <div class="card-body">Choosing a journal · the peer review process from both sides · writing responses to reviewers · preprints and open access · science beyond the paper: social media, press releases, policy briefs</div>
+      </div>
+    </div>
+
+    <hr class="divider">
+
+    <!-- Assignments -->
+    <p class="section-label">Assignments and grade distribution</p>
+    <table class="assignments-table">
+  <thead>
+    <tr>
+      <th>Assignment</th>
+      <th>Description</th>
+      <th>% grade</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Paper analysis memo</td>
+      <td>Critical reading of two papers of different types; compare structure, language, and rhetorical choices</td>
+      <td class="pct">15%</td>
+    </tr>
+    <tr>
+      <td>Figure revision</td>
+      <td>Redesign a published figure from agricultural literature applying Gestalt principles; include written rationale</td>
+      <td class="pct">15%</td>
+    </tr>
+    <tr>
+      <td>Dual-audience piece</td>
+      <td>Communicate the same findings for two audiences: a scientific abstract and a one-page extension summary written for farmers or land managers</td>
+      <td class="pct">20%</td>
+    </tr>
+    <tr>
+      <td>Manuscript section draft</td>
+      <td>Write one section (Introduction or Discussion) of a scientific paper on a topic in the student's own research area; includes a peer review round</td>
+      <td class="pct">20%</td>
+    </tr>
+    <tr>
+      <td>Oral presentation</td>
+      <td>12-min talk + Q&amp;A. Students choose their audience (academic conference or field day) and are assessed on content, delivery, and contextual appropriateness</td>
+      <td class="pct">20%</td>
+    </tr>
+    <tr>
+      <td>Participation &amp; in-class work</td>
+      <td>Attendance, workshop contributions, and quality of peer feedback given throughout the semester</td>
+      <td class="pct">10%</td>
+    </tr>
+  </tbody>
+</table>
+
+    <div class="note-box" style="margin-top:1rem">
+      <p>Graduate students will complete one additional component for the manuscript section draft: a one-page research proposal abstract framed for a funding agency, summarizing their project's objectives, approach, and potential impact for a non-journal audience.</p>
+    </div>
+
+    <hr class="divider">
+
+    <!-- Still to develop -->
+    <p class="section-label">Sections still to develop for the full syllabus</p>
+    <div class="pill-row">
+      <span class="pill">About the instructor</span>
+      <span class="pill">Diversity &amp; inclusion statement</span>
+      <span class="pill">Attendance policy</span>
+      <span class="pill">Late work policy</span>
+      <span class="pill">Electronics policy</span>
+      <span class="pill">Grading scale (letter grades)</span>
+      <span class="pill">Accessibility &amp; accommodations</span>
+      <span class="pill">Academic integrity</span>
+    </div>
+
+  </div><!-- /tab-syllabus -->
+
+</div><!-- /container -->
+
+<script>
+function switchTab(id, btn) {
+  document.querySelectorAll('.tab-panel').forEach(function(p) { p.classList.remove('active'); });
+  document.querySelectorAll('.tab-btn').forEach(function(b)  { b.classList.remove('active'); });
+  document.getElementById('tab-' + id).classList.add('active');
+  btn.classList.add('active');
+}
+</script>
+```
