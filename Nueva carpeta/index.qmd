@@ -93,7 +93,6 @@ format:
       <div class="activity-box">
         <div class="card-title">Figure Clinic handout</div>
         <div class="card-body">Three real figures from agr. journals · analysis table (principle / observation / suggested improvement) · blank space to sketch a revised version of the weakest figure</div>
-        <a href="figure_clinic_handout.pdf" download class="download-btn">⬇ Download PDF</a>
       </div>
     </div>
 

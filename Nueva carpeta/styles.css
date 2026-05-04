@@ -338,25 +338,6 @@ h1 {
   white-space: nowrap;
 }
 
-/* ── Download button ──────────────────────────────── */
-.download-btn {
-  display: inline-block;
-  margin-top: 0.75rem;
-  padding: 0.45rem 1rem;
-  background: #0F6E56;
-  color: #ffffff;
-  border-radius: 6px;
-  font-size: 12px;
-  font-weight: 500;
-  text-decoration: none;
-  letter-spacing: 0.03em;
-  transition: background 0.15s ease;
-}
-
-.download-btn:hover {
-  background: #0a5040;
-}
-
 /* ── Pills ────────────────────────────────────────── */
 .pill-row {
   display: flex;
